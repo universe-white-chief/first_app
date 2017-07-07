@@ -179,6 +179,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails (= 2.0.2)
+  minitest
   pg (~> 0.20.0)
   rails (= 4.2.9)
   rspec-rails (= 2.11.0)
