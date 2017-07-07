@@ -4,17 +4,46 @@ describe "StaticPages" do
 
   describe "Home page" do
 
-    it "should have the content 'Sample App'" do
+    it "should have the content 'Sddtc\\'s App'" do
       visit '/static_pages/home'
-      page.should have_content('Sample App')
+      page.should have_selector('h1',
+                                text: 'Sddtc\'s App')
     end
   end
 
-  describe "Help page" do
+  it 'should have the right title' do
+    visit '/static_pages/home'
+    page.should have_selector('title',
+                              text: ' | Home')
+  end
 
-    it "should have Then content 'Help'" do
+  describe 'Help page' do
+
+    it "should have the content 'Help'" do
       visit '/static_pages/help'
-      page.should have_content('Help')
+      page.should have_selector('h1',
+                                text: 'Help')
     end
+  end
+
+  it 'should have the right title' do
+    visit '/static_pages/help'
+    page.should have_selector('title',
+                              text: ' | Help')
+  end
+
+  describe 'About page' do
+
+    it "should have the content 'About Us'" do
+      visit '/static_pages/about'
+      page.should have_selector('h1',
+                                text: 'About Us')
+    end
+  end
+
+  it 'should have the right title' do
+    visit '/static_pages/about'
+    page.should have_selector('title',
+                              text: ' | About')
   end
 end
