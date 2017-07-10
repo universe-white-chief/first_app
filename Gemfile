@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.9'
 
+gem 'bootstrap-sass', '~> 3.3.6'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '2.0.2'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
