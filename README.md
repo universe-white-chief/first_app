@@ -1,35 +1,10 @@
 ### README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Ruby on Rails Tutorial 原书第 2 版（涵盖 Rails 3.2）](https://railstutorial-china.org/rails3)
 
-Things you may want to cover:
+**相关版本信息:**  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
-
-####
 ```
-rails generate scaffold User name:string email:string
+gem 'rails', '4.2.9'
 
 ```
